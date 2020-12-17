@@ -26,7 +26,7 @@ mp1.innerText = "My name has " + length + " characters.";
 
 // 4 & 5 Into the second paragraph tag, return the 3rd character in your first name
 const third = myFullName[2].toUpperCase();
-const last3 = myFullName.substring(10,13);
+const last3 = myFullName.substring(10,12);
 mp2.innerText = "The 3rd character in my name is " + third + ". \n" + "The last 3 characters of my last name are " + last3;
 // 6 Add a new line to your second paragraph
 
